@@ -151,13 +151,15 @@ To install GitHub Desktop, visit [GitHub Desktop](https://github.com/apps/deskto
 
 After installing Git, configure your global username and email using the following commands in the terminal:
 
-```bash
+```
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
+```
 
 ## Install git in local repository
+
 ### Intitialize git 
-This will initialize git on a local repository
+
 ```
 git init
 ```
