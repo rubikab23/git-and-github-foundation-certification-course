@@ -41,7 +41,6 @@ Git and GitHub are essential tools for version control and collaborative softwar
 - [Issues](#issues)
 - [Pull requests](#pull-requests)
 - [GitHub Discussions](#github-discussions)
-- [Notifications](#notifications)
 - [Gists](#gists)
 - [GitHub Wiki](#github-wiki)
 - [GitHub Actions](#github-actions)
@@ -253,6 +252,10 @@ Pull requests (PRs) in Git repositories are proposals to merge changes from one 
 ## GitHub Discussions
 
 GitHub Discussions provide a forum-like space within a repository where community members can engage in open conversations. It allows for broader discussions beyond code-related issues and pull requests, covering topics such as project ideas, feature requests, announcements, and more. Discussions foster collaboration, feedback, and community building around projects hosted on GitHub.
+
+## Gists
+
+Gists in Git are simplified repositories for sharing code snippets or text notes quickly. They support version control, comments, and embedding into websites or documentation. Gists can be public or private, allowing for collaboration and easy sharing of small pieces of code or information within the GitHub community. They are useful for demonstrating examples, storing notes, or integrating snippets into larger projects.
 
 ## GitHub Wiki
 
