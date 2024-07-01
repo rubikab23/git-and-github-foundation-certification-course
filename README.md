@@ -16,10 +16,10 @@ Git and GitHub are essential tools for version control and collaborative softwar
   - [Linux Installation](#linux-installation)
   - [GitHub Desktop Installation](#github-desktop-installation)
 - [Configure User Name](#configure-user-name)
-- [Install Git in Local Repository](#install-git-in-local-repository)
-  - [Intitialize git](#intitialize-git)
-  - [Cloning the repository](#cloning-the-repository)
 - [Git Basic Commands](#git-basic-commands)
+  - [Install Git in Local Repository](#install-git-in-local-repository)
+    - [Intitialize git](#intitialize-git)
+    - [Cloning the repository](#cloning-the-repository)
   - [Managing Changes](#managing-changes)
     - [Check the status of files](#check-the-status-of-files)
     - [Add file(s) to the staging area](#add-files-to-the-staging-area)
@@ -134,77 +134,78 @@ https://github.com/apps/desktop)
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
+## Git Basic Commands
 
-## Install git in local repository
+### Install git in local repository
 
-### Intitialize git 
+#### Intitialize git 
 
 ```
 git init
 ```
 
-### Cloning the repository
+#### Cloning the repository
 
 ```
 git clone [url]
 ```
 
-## Managing Changes
+### Managing Changes
 
-### Check the status of files
+#### Check the status of files
 
 ```
 git status
 ```
-### Add file(s) to the staging area
+#### Add file(s) to the staging area
 
 ```
 git add <file1> <file2> ...
 ```
 
-### Commit changes to the repository
+#### Commit changes to the repository
 
 ```
 git commit -m "Your commit message here"
 ```
 
-## Viewing and Updating
+### Viewing and Updating
 
-### View commit history
+#### View commit history
 
 ```
 git log
 ```
 
-### Push and Pull from Remote
+#### Push and Pull from Remote
 
 ```
 git push origin <branch-name>
 git pull origin <branch-name>
 ```
 
-## Branching and Merging
+### Branching and Merging
 
-### Create a new branch
+#### Create a new branch
 
 ```
 git checkout -b <branch-name>
 ```
 
-### Switch to a different branch
+#### Switch to a different branch
 
 ```
 git checkout <branch-name>
 ```
-### Merge changes from one branch into another
+#### Merge changes from one branch into another
 
 ```
 git merge <source-branch>
 ```
 
-## Miscellaneous
+### Miscellaneous
 
-### View remote repositories
+#### View remote repositories
 
 ```
 git remote -v
